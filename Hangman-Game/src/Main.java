@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        String filepath = "C:\\Users\\admin\\Desktop\\JavWBro\\Hangman-Game\\src\\words.txt";
+        String filepath = "C:\\Users\\admin\\Desktop\\Java-Project-\\Hangman-Game\\src\\words.txt";
         ArrayList<String> words = new ArrayList<>();
         ArrayList<Character> wordState = new ArrayList<>();
         try(BufferedReader reader = new BufferedReader( new FileReader(filepath))) {
